@@ -774,7 +774,7 @@ input[type="email"]::placeholder {
     font-size: 13px;
     color: #C9C8C8;
 }
-.sub-dir{ 
+/* .sub-dir{ 
     height: 30px;
     width: 100%;
     display: flex;
@@ -782,11 +782,12 @@ input[type="email"]::placeholder {
     justify-content: center;
     align-items: center;
     align-content: center;
-} 
+}  */
 .newsletter{
     width: 100%;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     padding: 0;
     margin: 0;
     gap: 10px; 
