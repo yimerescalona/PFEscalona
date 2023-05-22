@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>All Creativos</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="shortcut icon" href="images/favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,22 +14,37 @@
 </head>
 <body>
 <!-- HEADER -->
-        <header>
-        <div class="header__cabecera">
-            <a href="index.html" class="logo">
-                   <img src="images/all.svg" alt="Logo de mi pagina">
-                   <h2>All Creativos</h2>
-            </a>
-            <nav class="navbar">
-                <div class="navbar-1">
-                    <a href="pages/servicios.html" class="nav-link">Servicios</a>
-                    <a href="#" class="nav-link">Portafolio</a>
+    <header>
+            <nav class="navbar navbar-expand-lg bg-dark">
+                <div class="container-fluid">
+                  <button class="navbar-toggler bg-body-tertiary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <a class="navbar-brand" href="#">
+                    <img src="images/all.svg" alt="">
+                    ALL CREATIVOS</a>
+                  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="pages/servicios.html">SERVICIOS</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled">PORTAFOLIO</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled">CONTACTO</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled">TIENDA</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Buscar productos" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">BUSCAR</button>
+                    </form>
+                  </div>
                 </div>
-                <div class="navbar-2">
-                    <a href="#" class="nav-link">Contacto</a>
-                    <a href="#" class="nav-link">Tienda</a>
-                </div>
-            </nav>
+              </nav>
         </div>
        </header>
 <!-- FIN DE HEADER -->
@@ -113,27 +129,27 @@
     <section class="footer__section">
         <div class="footer__container">
             <div class="footer__logo">
-                <a href=""><img src="images/all-creativos-wite.svg" alt=""></a>
+                <a href="../index.html"><img src="../images/all-creativos-wite.svg" alt=""></a>
             </div> 
             <div class="footer__RRSS">
                 <div class="footer__RRSS-link">
-                    <img src="icon/instagram.png" alt="">
-                    <a href="">@allcreativos</a>    
+                    <img src="../icon/instagram.png" alt="">
+                    <a href="https://www.instagram.com/allcreativos/">@allcreativos</a>    
                 </div>
                 <div class="footer__RRSS-link">
-                    <img src="icon/facebook.png" alt="">
-                    <a href="">@allcreativos</a>    
+                    <img src="../icon/facebook.png" alt="">
+                    <a href="https://www.facebook.com">@allcreativos</a>    
                 </div>
                 <div class="footer__RRSS-link">
-                    <img src="icon/email.png" alt="">
-                    <a href="">info@allcreativos.com</a>    
+                    <img src="../icon/email.png" alt="">
+                    <a href="mailto:administracion@allcreativos.com">info@allcreativos.com</a>    
                 </div>
             </div>
         </div>
         <div class="footer__container-input">
             <div class="sub-dir">
                 <div class="newsletter">
-                    <img src="icon/newsletter.png" alt="icono-newslater">
+                    <img src="../icon/newsletter.png" alt="icono-newslater">
                     <form action="archivo.php" method="post" enctype="text/plain">
                         <input type="email" placeholder="Suscríbete al newsletter">
                         <input type="submit" value="Enviar">
@@ -142,7 +158,7 @@
             </div>
             <div class="footer__address">
                 <div>
-                    <img src="icon/pin.png" alt="">
+                    <img src="../icon/pin.png" alt="">
                 </div>
                 <a href="https://goo.gl/maps/MkEJuaSRNYB2vUFFA" target="_blank">
                     
@@ -155,7 +171,6 @@
    <div>
    <p>Copyright © 2023 | All Creativos</p></div>
 </footer>
-<!-- FIN DEL FOOTER -->
-</body>
+<script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

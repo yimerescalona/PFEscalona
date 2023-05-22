@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>All Creativos</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="shortcut icon" href="images/favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,25 +13,39 @@
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;600;900&display=swap" rel="stylesheet">
 </head>
 <body>
-<!-- HEADER -->
-        <header>
-        <div class="header__cabecera">
-            <a href="../index.html" class="logo">
-                   <img src="../images/all.svg" alt="Logo de mi pagina">
-                   <h2>All Creativos</h2>
-            </a>
-            <nav class="navbar">
-                <div class="navbar-1">
-                    <a href="../pages/servicios.html" class="nav-link">Servicios</a>
-                    <a href="#" class="nav-link">Portafolio</a>
-                </div>
-                <div class="navbar-2">
-                    <a href="#" class="nav-link">Contacto</a>
-                    <a href="#" class="nav-link">Tienda</a>
-                </div>
-            </nav>
+<!-- INICIO DE HEADER -->
+<header>
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <button class="navbar-toggler bg-body-tertiary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="../index.html">
+            <img src="../images/all.svg" alt="">
+            ALL CREATIVOS</a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">SERVICIOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">PORTAFOLIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">CONTACTO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">TIENDA</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar productos" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">BUSCAR</button>
+            </form>
+          </div>
         </div>
-       </header>
+      </nav>
+</header>
 <!-- FIN DE HEADER -->
 <!-- INICIO DE MAIN -->
 <main>
@@ -113,16 +128,14 @@
                     <img src="../icon/pin.png" alt="">
                 </div>
                 <a href="https://goo.gl/maps/MkEJuaSRNYB2vUFFA" target="_blank">
-                    
                     <p>Av. Bernardo O'Higgins 1302, Santiago, Chile</p>
                 </a>
-                
             </div>
         </div>
    </section>
-   <div>
-   <p>Copyright © 2023 | All Creativos</p></div>
+   <p>Copyright © 2023 | All Creativos</p>
 </footer>
 <!-- FIN DEL FOOTER -->
+<script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
