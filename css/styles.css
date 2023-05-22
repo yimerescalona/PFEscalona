@@ -796,6 +796,9 @@ input[type="email"]::placeholder {
     width: 25px;
     height: 25px;
 }
+.barra{
+    width: 140px;
+} 
 input, textarea{
     border:1px gray solid ;
     border-radius: 10px;
