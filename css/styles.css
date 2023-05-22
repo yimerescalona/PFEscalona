@@ -763,7 +763,7 @@ footer p{
 }
 .footer__container-input{
     height: 70px;
-    width: 270px;
+    width: 290px;
     display: flex; 
     flex-direction: column;
     justify-content: space-between;
@@ -784,6 +784,7 @@ input[type="email"]::placeholder {
     align-content: center;
 } 
 .newsletter{
+    width: 100%;
     display: flex;
     flex-direction: row;
     padding: 0;
