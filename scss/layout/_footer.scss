@@ -1,0 +1,136 @@
+/* INICIO DEL FOOTER */
+footer{
+    height: 300px; 
+    width: 100%; 
+    padding-top: 27px;
+    background-color: #212529;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+footer p{
+    color: #ffffff;
+    margin-bottom: 15px;
+    
+}
+.footer__section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.footer__container{
+    display: flex; 
+    justify-content: center;
+    align-items:center; 
+    gap: 15px;
+}
+.footer__logo{
+    width: 100px;
+    height: 100px;
+}
+.footer__RRSS{
+    height: 100px ; 
+    width: 170px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start; 
+}
+.footer__RRSS-link{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    gap: 5px;
+}
+.footer__RRSS img{
+    width: 18px;
+    height: 18px;
+}
+.footer__RRSS a{
+    font-size: 16px;
+    padding: 0;
+    font-size: 15px;
+}
+.footer__container-input{
+    height: 70px;
+    width: 290px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+input[type="email"]::placeholder {
+    font-size: 13px;
+    color: #C9C8C8;
+}
+.newsletter{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    gap: 10px; 
+}
+.newsletter img{
+    width: 25px;
+    height: 25px;
+}
+.barra{
+    width: 180px;
+} 
+input, textarea{
+    border:1px gray solid ;
+    border-radius: 10px;
+    outline: none;
+    padding: 5px;
+}
+.footer__address{
+    height: 27px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.footer__address p{
+   text-align: left;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.footer__address img{
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+}
+.footer__address a{
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    padding: 0;
+    margin: 0;
+}
+@media (min-width: 720px){
+    footer{
+        height: 210px; 
+    }
+    .footer__section{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .footer__container-input{
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 20px;
+    }
+}
+/* FIN DEL FOOTER */

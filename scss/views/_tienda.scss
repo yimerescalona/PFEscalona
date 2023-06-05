@@ -1,0 +1,498 @@
+/* INICIO DE TIENDA */
+/* Sublimacion */
+.container__tienda{
+    margin-bottom: 40px;
+}
+.container__sublimacion{
+    padding: 0 30px;
+    
+}
+.container__sublimacion-pz{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+/* Poleras */
+.container__sublimacion-polera{
+    width: 50%;
+    text-align: center;
+}
+.container__sublimacion-polera img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.container__sublimacion-polera h3{
+    width: 100%;
+    margin: 0 0 5px;
+    padding: 0;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1;
+}
+.container__sublimacion-polera p{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1;
+}
+.sublimacion-polera-tallas{
+    margin: 8px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.sublimacion-polera-disp{
+    margin: 8px 0;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.color-button-tienda{
+    background-color: #000000;
+    color: #fff;
+    border: none;
+}
+/* Tazas */
+.container__sublimacion-taza{
+    width: 50%;
+    text-align: center;
+}
+.container__sublimacion-taza img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.container__sublimacion-taza h3{
+    width: 100%;
+    margin: 0 0 5px;
+    padding: 0;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1;
+}
+.container__sublimacion-taza p{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1;
+}
+.sublimacion-taza-tallas{
+    margin: 8px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.sublimacion-taza-disp{
+    margin: 8px 0;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.container__sublimacion-gp{
+    display: flex;
+    flex-direction: row;
+    margin-top: 34px;
+    gap: 10px;
+}
+/* Gorra */
+.container__sublimacion-gorra{
+    width: 50%;
+    text-align: center;
+}
+.container__sublimacion-gorra img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.container__sublimacion-gorra h3{
+    width: 100%;
+    margin: 0 0 5px;
+    padding: 0;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1;
+}
+.container__sublimacion-gorra p{
+    width: 100%;
+    margin: 0 0 10px;
+    padding: 0;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1;
+}
+.sublimacion-gorra-disp{
+    margin: 8px 0;
+    margin-bottom: 17px;
+    gap: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+/* Poleron */
+.container__sublimacion-poleron{
+    width: 50%;
+    text-align: center;
+}
+.container__sublimacion-poleron{
+    width: 50%;
+    text-align: center;
+}
+.container__sublimacion-poleron img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.container__sublimacion-poleron h3{
+    width: 100%;
+    margin: 0 0 5px;
+    padding: 0;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1;
+}
+.container__sublimacion-poleron p{
+    width: 100%;
+    margin: 0 0 10px;
+    padding: 0;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1;
+}
+.sublimacion-poleron-tallas{
+    margin: 8px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.sublimacion-poleron-tallas p{
+    margin: 0;
+}
+.sublimacion-poleron-disp{
+    margin: 8px 0;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+/* Impresion */
+.container__impresion{
+    padding: 0 30px;
+}
+.container__impresion-pf{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    gap: 10px;
+}
+.container__impresion-pendon{
+    width: 50%;
+    text-align: center;
+}
+.container__impresion-pendon img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.container__impresion-pendon h3{
+    width: 100%;
+    margin: 0 0 5px;
+    padding: 0;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1;
+}
+.container__impresion-pendon p{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1;
+}
+.impresion-pendon-tamaños{
+    margin: 8px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.impresion-pendon-disp{
+    margin: 8px 0;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.impresion-pendon-disp P{
+    font-size: 12px;
+    text-align: left;
+}
+.container__impresion-flyers{
+    width: 50%;
+    text-align: center;
+}
+.container__impresion-flyers img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.container__impresion-flyers h3{
+    width: 100%;
+    margin: 0 0 5px;
+    padding: 0;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1;
+}
+.container__impresion-flyers p{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1;
+}
+.impresion-flyers-tamaños{
+    margin: 8px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.impresion-flyers-disp{
+    margin: 8px 0;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.impresion-flyers-disp P{
+    font-size: 12px;
+    text-align: left;
+}
+.container__impresion-tl{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.container__impresion-tarjeta{
+    width: 50%;
+    text-align: center;
+}
+.container__impresion-tarjeta img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.container__impresion-tarjeta h3{
+    width: 100%;
+    margin: 0 0 5px;
+    padding: 0;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1;
+}
+.container__impresion-tarjeta p{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1;
+}
+.impresion-tarjeta-tamaños{
+    margin: 8px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.impresion-tarjeta-disp{
+    margin: 8px 0;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.impresion-tarjeta-disp P{
+    font-size: 12px;
+    text-align: left;
+}
+.container__impresion-lapiz{
+    width: 50%;
+    text-align: center;
+}
+.container__impresion-lapiz img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.container__impresion-lapiz h3{
+    width: 100%;
+    margin: 0 0 5px;
+    padding: 0;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1;
+}
+.container__impresion-lapiz p{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1;
+}
+.impresion-lapiz-tamaños{
+    margin: 8px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.impresion-lapiz-disp{
+    margin: 8px 0;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.impresion-lapiz-disp P{
+    font-size: 12px;
+    text-align: left;
+}
+.main__tienda__contacto{
+    margin: 0 30px;
+}
+.main__tienda__contacto-text h2{
+    font-size: 32px;
+}
+.main__tienda__contacto-text p{
+    font-size: 12px;
+    padding: 0;
+}
+.main__tienda__contacto-form{
+    margin-bottom: 10px;
+}
+.main__tienda__contacto-form p{
+    font-size: 14px;
+    text-align: left;
+    margin: 0;
+}
+.main__tienda__contacto-form1,
+.main__tienda__contacto-form2{
+    width: 100%;
+}
+.main__tienda__contacto-form2{
+   height: 116px; 
+}
+.main__tienda__contacto-form-enviar{
+    width: 100%;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    font-size: 10px;
+    gap: 10px;
+}
+@media (min-width: 720px){
+    .container__tienda h2{
+        text-align: center;
+    }
+    .container__sublimacion{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: baseline;
+        gap:5px;
+    }
+    .container__sublimacion-pz{
+        margin: 0;
+        gap: 5px;
+        width: 50%;
+    }
+    .container__sublimacion-gp{
+        margin: 0;
+        gap: 5px;
+        width: 50%;
+    }
+    .container__impresion{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: baseline;
+        gap:5px;
+    }
+    .container__impresion-pf{
+        margin: 0;
+        gap: 5px;
+        width: 50%;
+    }
+    .container__impresion-tl{
+        margin: 0;
+        gap: 5px;
+        width: 50%;
+    }
+    .main__tienda__contacto{
+        display: flex;
+        gap: 20px;
+    }
+    .main__tienda__contacto p, h2{
+        text-align: left;
+        padding: 0;
+    }
+}
+@media (min-width: 1200px){
+    .container__tienda,
+    .main__tienda__contacto{
+        margin: 0 133px;
+    }
+    .container__tienda{
+        margin-bottom: 50px;
+    }
+    .container__tienda h2{
+        text-align: center;
+    }
+    .main__tienda__contacto-formulario{
+        width: 50%;
+    }
+    .main__tienda__contacto-text{
+        width: 50%;
+    }
+}
+/* FIN DE TIENDA */

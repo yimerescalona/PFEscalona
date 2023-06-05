@@ -1,4 +1,12 @@
-@import "reset";
-@import "variables";
-
+@import "base/reset";
+@import "utilities/variables";
+// Views
+@import "views/home";
+@import "views/servicios";
+@import "views/portafolio";
+@import "views/contacto";
+@import "views/tienda";
+// Layout
+@import "layout/header";
+@import "layout/footer"
 

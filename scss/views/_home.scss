@@ -1,0 +1,418 @@
+/* INICIO DEL MAIN PAGINA INDEX*/
+main{
+    height: auto;
+}
+/* Inicio del Slide */
+.main__slide{
+    position: relative;
+    height: 450px;
+}
+.main__slide-box{
+    position: relative;
+    background-image: url(../images/slide/slide-imagen-1-1000px.jpg);
+    background-color: rgb(50,50,50);
+    background-blend-mode:  soft-light;
+    height: 100%;
+    background-position: center;
+    background-size: cover;    
+}
+.main__slide-text{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+}
+.main__slide-text h1{
+    margin-bottom: 10px;
+    font-size: 64px;
+    line-height: 1.1;
+  }
+.main__slide-text p{
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+  }
+/* Desktop */
+@media (min-width: 1200px){
+    .main__slide{
+        position: relative;
+        height: 700px;
+    }
+   .main__slide-text p{
+    font-size: 48px;
+    font-weight: 600;
+   }
+   .main__slide-text h1{
+    font-size: 96px;
+   }
+}  
+/* Fin del Slide */     
+/* Inicio del Nosotros */
+.main__nosotros{
+    margin: 30px;
+    height: auto;
+}
+.main__nosotros-container{
+    position: relative;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.main__nosotros-video{
+    position: relative;
+    padding-bottom: 56.25%; 
+    height: 0;
+    overflow: hidden;
+  }
+.main__nosotros-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  /* Tablet */
+@media (min-width: 720px){
+    .main__nosotros{
+        margin: 40px 60px;
+    }
+    .main__nosotros-container p{
+        padding: 0px;
+    }
+}
+  /* Desktop */
+  @media (min-width: 1200px){
+    .main__nosotros{
+        height: 346px;
+        margin: 40px;
+        gap: 55px;
+        display: flex;
+    }
+    .main__nosotros-container{
+        width: 45%;
+        text-align: left;
+    }
+    .main__nosotros-container p, h2{
+        text-align: left;
+        padding-left: 20px;
+        padding-right: 20px;
+        line-height: 23px
+    }
+    .main__nosotros-container p{
+        font-size: 20px;
+    }
+    .main__nosotros-container h2{
+        font-size: 48px;
+        margin-top: 0px;
+    }
+    .main__nosotros-container a{
+        margin-left: 20px;
+        font-size: 20px;
+    }
+
+    .main__nosotros-video {
+        position: relative;
+        width: 100%;
+        padding-bottom: 346px; 
+        height: 0;
+        overflow: hidden;
+      }
+    .main__nosotros-video iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+}
+/* Fin del Nosotros */
+  /* Inicio del Portafolio*/
+  .main__portafolio{
+    margin: 30px;
+    height: auto;
+}
+.main__portafolio-container{
+    display: flex;
+    flex-direction: column;
+    gap: 25.5px;
+}
+.main__portafolio-images{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat (5, 1fr);
+}
+.main__portafolio-images img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.portafolio__images-1{
+    grid-column: 1 / 4;
+    grid-row: 1 / 3;
+}
+.portafolio__images-2{
+    grid-column: 4 / 7;
+    grid-row: 1 / 2; 
+}
+.portafolio__images-3{
+    grid-column: 4 / 7;
+    grid-row: 2 / 3;
+}
+.portafolio__images-4{
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+}
+.portafolio__images-5{
+    grid-column: 3 / 7;
+    grid-row: 3 / 4;    
+}
+.portafolio__images-6{
+    grid-column: 1 / 5;
+    grid-row: 4 / 5;
+}
+.portafolio__images-7{
+    grid-column: 5 / 7;
+    grid-row: 4 / 5;
+}
+.portafolio__images-8{
+    grid-column: 1 / 4;
+    grid-row: 5 / 6;
+}
+.portafolio__images-9{
+    grid-column: 4 / 7;
+    grid-row: 5 / 6;   
+}
+.portafolio-text{
+    position: relative;
+    padding-bottom: 20px;
+    text-align: center;
+}
+/* Tablet */
+@media (min-width: 720px){
+    .main__portafolio-images{
+        display: grid;
+        grid-template-columns: repeat(9, 1fr);
+        grid-template-rows: repeat (3, 1fr);
+        grid-auto-rows: 1fr;
+        padding: 0 30px;
+       
+    }
+    .main__portafolio-images img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+        cursor: pointer;
+    }
+    
+.main__portafolio-images img:hover {
+    transform: scale(1.2);
+  }
+    .portafolio__images-1{
+        grid-column: 1 / 4;
+        grid-row: 1 / 3;
+    }
+    .portafolio__images-2{
+        grid-column: 4 / 7;
+        grid-row: 1 / 2;
+    }
+    .portafolio__images-3{
+        grid-column: 7 / 10;
+        grid-row: 1 / 2;
+    }
+    .portafolio__images-4{
+        grid-column: 4 / 6;
+        grid-row: 2 / 3;
+    }
+    .portafolio__images-5{
+        grid-column: 6 / 8;
+        grid-row: 2 / 3;    
+    }
+    .portafolio__images-6{
+        grid-column: 8 / 10;
+        grid-row: 2 / 3;
+    }
+    .portafolio__images-7{
+        grid-column: 1 / 4;
+        grid-row: 3 / 4;
+    }
+    .portafolio__images-8{
+        grid-column: 4 / 7;
+        grid-row: 3 / 4;
+    }
+    .portafolio__images-9{
+        grid-column: 7 / 10;
+        grid-row: 3 / 4;   
+    }
+    .portafolio-text{
+        position: relative;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+}
+  /* Fin del Portafolio*/
+/* Inicio de productos */
+.main__productos{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+.main__productos h2{
+    margin-top: 0;
+}
+.main__productos-images{
+    width:100%;
+    height: 100%;
+    border: solid 1px #444444; 
+    display: flex;
+    justify-content:center;
+    box-sizing: border-box;
+    padding: 13px;
+    gap: 13px;
+    margin-bottom: 22px;
+}
+.main__productos-images img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.main__productos-images img:hover {
+    transform: scale(1.1);
+  }
+@media (min-width: 720px){
+    .main__productos{
+        padding:0 60px;
+    }
+    .main__productos-images{
+        height: 286px;
+        padding: 22px;
+        gap: 22px;
+    }
+}
+@media (min-width: 1200px){
+.main__productos-images{
+    margin: 0;
+    }
+.main__productos h2{
+        margin: 0;
+}
+}
+/* Fin de productos */
+/* Inicio de contactos */
+.main__contacto{
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin: 20px 0;
+}
+.main__contacto h2{
+    margin: 0 0 20px;
+}
+.main__contacto-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 16px;
+}
+.main__contacto-imagen{
+    background-image:url(../images/contactos2.jpg);
+    background-position: center;
+    background-size: cover; 
+    background-color: rgb(255, 0, 255);
+    height: auto;
+    width: 100%;
+}
+.main__contacto-texto{
+    height: 177px;
+    width: 290px;
+    display: flex;
+    align-items:self-start;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main__contacto-texto p{
+    text-align: left;
+    padding: 0;
+    margin-bottom: 5px;
+}
+.main__contacto-texto a{
+    margin: 0;
+}
+@media (min-width: 720px){
+    .main__contacto{
+        width: 100%;
+        height: auto;
+        padding: 0 60px 60px;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+    }
+}
+/* Fin de contactos */
+/* Inicio de ppc */
+@media (min-width: 1200px){
+    .main__grid-ppc{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat (2, 1fr);
+        padding: 33px;
+    }
+    .main__portafolio{
+        grid-column: 1 / 2;
+        grid-row: 1 / 3;
+        margin: 0;
+        padding: 0;
+    }
+    .main__portafolio h2{
+        margin-top: 0;
+    }
+    .main__productos{
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: 3fr, 2fr, 1fr;
+        grid-template-rows: 05fr , 2fr;
+        align-items:center;
+        justify-content: center;
+    }
+    .main__productos h2{
+        grid-column: 1 / 3;
+        grid-row: 1 / 2;
+        padding: 0;
+    }
+    .main__productos a{
+        grid-column: 3 /4;
+        grid-row: 1 / 2;
+        text-align: center;
+    }
+    .main__productos-images{
+        grid-column: 1 / 4;
+        grid-row: 2 / 3;
+    }
+    .main__contacto{
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        margin: 20px;
+        padding: 20px;
+        align-items:center;
+        
+    }
+    .main__contacto-imagen{
+        width: 250px;
+    }
+}
+/* Fin de ppc */
+/* FIN DEL MAIN PAGINA INDEX */
