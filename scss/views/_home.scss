@@ -23,7 +23,7 @@ main{
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    color: #ffffff;
+    color: $Tertiarycolor;
 }
 .main__slide-text h1{
     margin-bottom: 10px;
@@ -33,7 +33,7 @@ main{
 .main__slide-text p{
     margin-bottom: 10px;
     font-size: 30px;
-    color: #ffffff;
+    color: $Tertiarycolor;
     text-align: center;
   }
 /* Desktop */
